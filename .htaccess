@@ -1,0 +1,17 @@
+php_flag display_errors on
+php_flag html_errors on
+
+order deny,allow
+deny from all
+allow from localhost
+allow from 84.88.56.250
+allow from 83.48.255.122
+allow from 192.168.0
+allow from 62.199.36.142
+allow from 83.45.190.8
+allow from 83.45.190
+allow from 51.37.163.188
+allow from 78.152.222.237
+allow from 185.122.190.7
+allow from 84.198.244
+allow from 151.56.96.12

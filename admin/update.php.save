@@ -1,0 +1,8 @@
+<?php
+	require_once('config.php');
+
+	//Process form data
+	if(isset($_POST["id"] && !empty($_POST["id"])){
+		
+	}
+?>

@@ -1,0 +1,9 @@
+Status for the jail: ssh
+|- filter
+|  |- File list:	/var/log/auth.log 
+|  |- Currently failed:	0
+|  `- Total failed:	100
+`- action
+   |- Currently banned:	11
+   |  `- IP list:	77.72.82.39 5.188.10.76 123.249.79.233 116.31.116.33 123.249.27.172 125.74.29.54 5.188.10.182 210.245.107.41 14.140.250.170 193.201.224.158 97.65.33.48 
+   `- Total banned:	11

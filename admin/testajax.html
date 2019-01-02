@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+ 
+<html>
+ <head>
+ <title>Upload Image using AJAX</title>
+ 
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+ <!-- including jquery --> 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	  <script>
+  		$( function() {
+    			$( "#date" ).datepicker();
+  		} );
+  </script> 
+</head>
+ 
+ <body>
+	<div id="Container">
+		<input id="date" type="text">
+	</div>
+ <!-- Creating a form to upload image --> 
+ <form id="uploadImage" action="classes/upload.php" method="post" enctype="multipart/form-data">
+	<input type="file" value="upload pic" name="fileUpload" />
+	<button type="submit" name="submit">Upload File</button>
+ </form>
+  <!-- p element with id msg to display success msg --> 
+ <p id="msg"></p>
+ 
+ <!-- including upload.js script --> 
+ <script src="../scripts/upload.js"></script>
+ </body>
+</html>
